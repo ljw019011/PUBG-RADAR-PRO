@@ -102,7 +102,7 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
     fun show() {
         val config = Lwjgl3ApplicationConfiguration()
         config.setTitle("")
-        config.useOpenGL3(false, 2, 1)
+        config.useOpenGL3(false, 1, 1)
         config.setWindowedMode(800, 800)
         config.setResizable(true)
         config.useVsync(false)
